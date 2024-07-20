@@ -42,13 +42,40 @@
             <option value="name">Sort by Name</option>
             <option value="price">Sort by Price</option>
         </select>
-        <select id="filterSelect">
-            <option value="all">All Types</option>
-            <!-- Dynamically generate filter options based on product types -->
+        <select id="materialFilterSelect">
+            <option value="all">Select Material</option>
+            <option value="Aluminium">Aluminium</option>
+            <option value="Brass">Brass</option>
+            <option value="Capralon">Capralon</option>
+            <option value="Copper">Copper</option>
+            <option value="Copperbond">Copperbond</option>
+            <option value="Glass">Glass</option>
+            <option value="Paronite">Paronite</option>
+            <option value="Steel">Steel</option>
+            <option value="Polyamide">Polyamide</option>
+            <option value="Polyurethane">Polyurethane</option>
+            <option value="Rubber">Rubber</option>
+            <option value="Silicon">Silicon</option>
+            <option value="Stainless Steel">Stainless Steel</option>
+            <option value="Steel">Steel</option>
+            <option value="Teflon">Teflon</option>
+            <option value="Textolite">Textolite</option>
+            <option value="Misc">Misc</option>
+        </select>
+        <select id="typeFilterSelect">
+          <option value="all">Select Type</option>
+          <option value="Angle">Angle</option>
+          <option value="Flat Bar">Flat Bar</option>
+          <option value="Rod">Rod</option>
+          <option value="Rope">Rope</option>
+          <option value="Round Tube">Round Tube</option>
+          <option value="Sheet">Sheet</option>
+          <option value="Square Tube">Square Tube</option>
+          <option value="Wire">Wire</option>
         </select>
     </section>
 
-      <div class="pro-container">
+      <div class="pro-container shop-pro-container">
         <!-- Setup happens using the "products.json" folder and JS -->
       </div>
       <section id="pagination" class="section-p1">

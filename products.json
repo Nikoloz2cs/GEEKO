@@ -3,7 +3,7 @@
         "id": "1",
         "aval": "yes",
         "name": "Aluminium Angle",
-        "price": "$_____",
+        "price": "$12",
         "type": ["Aluminium", "Angle"],
         "images": [
             "product_images/aluminiumAngle/1.jpg",
@@ -16,7 +16,7 @@
         "id": "2",
         "aval": "no",
         "name": "Aluminium Flat Bar",
-        "price": "$_____",
+        "price": "$11",
         "type": ["Aluminium", "Flat Bar"],
         "images": [
             "product_images/aluminiumFlatBar/1.jpg",
@@ -160,7 +160,7 @@
         "aval": "yes",
         "name": "Conveyor Belt",
         "price": "$_____",
-        "type": ["Conveyor Belt"],
+        "type": ["Misc"],
         "images": [
             "product_images/ConveyorBelt/1.jpg",
             "product_images/ConveyorBelt/2.jpg",
@@ -212,7 +212,7 @@
         "aval": "yes",
         "name": "Fireproof Fiber Glass",
         "price": "$_____",
-        "type": ["Fireproof", "Fiber Glass"],
+        "type": ["Misc", "Glass"],
         "images": [
             "product_images/fireproofFiberGlass/1.jpg",
             "product_images/fireproofFiberGlass/2.jpg",
@@ -225,7 +225,7 @@
         "aval": "yes",
         "name": "Graphite Packing",
         "price": "$_____",
-        "type": ["Graphite", "Packing"],
+        "type": ["Misc"],
         "images": [
             "product_images/graphitePacking/1.jpg",
             "product_images/graphitePacking/2.jpg",
@@ -238,7 +238,7 @@
         "aval": "yes",
         "name": "Organic Glass",
         "price": "$_____",
-        "type": ["Organic Glass"],
+        "type": ["Misc","Glass"],
         "images": [
             "product_images/organicGlass/1.jpg",
             "product_images/organicGlass/2.jpg",
@@ -316,7 +316,7 @@
         "aval": "yes",
         "name": "Stainless Steel Angle",
         "price": "$_____",
-        "type": ["Stainless Steel", "Angle"],
+        "type": ["Stainless Steel", "Steel", "Angle"],
         "images": [
             "product_images/stainlessSteelAngle/1.jpg",
             "product_images/stainlessSteelAngle/2.jpg",
@@ -329,7 +329,7 @@
         "aval": "yes",
         "name": "Stainless Steel Rod",
         "price": "$_____",
-        "type": ["Stainless Steel", "Rod"],
+        "type": ["Stainless Steel", "Steel", "Rod"],
         "images": [
             "product_images/stainlessSteelRod/1.jpg",
             "product_images/stainlessSteelRod/2.jpg",
@@ -342,7 +342,7 @@
         "aval": "yes",
         "name": "Stainless Steel Sheet",
         "price": "$_____",
-        "type": ["Stainless Steel", "Sheet"],
+        "type": ["Stainless Steel", "Steel", "Sheet"],
         "images": [
             "product_images/stainlessSteelSheet/1.jpg",
             "product_images/stainlessSteelSheet/2.jpg",
@@ -355,7 +355,7 @@
         "aval": "yes",
         "name": "Stainless Steel Square Tube",
         "price": "$_____",
-        "type": ["Stainless Steel", "Square Tube"],
+        "type": ["Stainless Steel", "Steel", "Square Tube"],
         "images": [
             "product_images/stainlessSteelSquareTube/1.jpg",
             "product_images/stainlessSteelSquareTube/2.jpg",
@@ -420,51 +420,12 @@
         "aval": "yes",
         "name": "Wire Rope",
         "price": "$_____",
-        "type": ["Wire Rope"],
+        "type": ["Wire", "Rope"],
         "images": [
             "product_images/wireRope/1.jpg",
             "product_images/wireRope/2.jpg",
             "product_images/wireRope/3.jpg",
             "product_images/wireRope/4.jpg"
-        ]
-    },
-    {
-        "id": "34",
-        "aval": "yes",
-        "name": "",
-        "price": "$_____",
-        "type": [""],
-        "images": [
-            "product_images//1.jpg",
-            "product_images//2.jpg",
-            "product_images//3.jpg",
-            "product_images//4.jpg"
-        ]
-    },
-    {
-        "id": "35",
-        "aval": "yes",
-        "name": "",
-        "price": "$_____",
-        "type": [""],
-        "images": [
-            "product_images//1.jpg",
-            "product_images//2.jpg",
-            "product_images//3.jpg",
-            "product_images//4.jpg"
-        ]
-    },
-    {
-        "id": "36",
-        "aval": "yes",
-        "name": "",
-        "price": "$_____",
-        "type": [""],
-        "images": [
-            "product_images//1.jpg",
-            "product_images//2.jpg",
-            "product_images//3.jpg",
-            "product_images//4.jpg"
         ]
     }
 ]

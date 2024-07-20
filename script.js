@@ -18,6 +18,18 @@ let currentPage = 1;
 const productsPerPage = 12;
 let totalPages = 0;
 let products = [];
+const popularProductIDs = ["19","5","7","8","11","15","3","26"];
+let popularProducts = []; // Array to store most popular products
+
+// Check if we are on the shop page by checking for the shop-specific element
+function isShopPage() {
+    return document.querySelector('.shop-pro-container') !== null;
+}
+
+// Check if we are on the home page by checking for the home-specific element
+function isHomePage() {
+    return document.querySelector('.home-pro-container') !== null;
+}
 
 // Fetch product data from JSON file
 async function fetchProductData() {
@@ -26,29 +38,35 @@ async function fetchProductData() {
         const data = await response.json();
         products = data;
         totalPages = Math.ceil(products.length / productsPerPage);
+
+        // Filter the most popular products for the home page
+        popularProducts = products.filter(product => popularProductIDs.includes(product.id));
+
         displayProducts();
-        setupPagination();
+        setupPagination(products.length);
     } catch (error) {
         console.error("Error fetching product data:", error);
     }
 }
 
-// Check if we are on the shop page by checking for the shop-specific element
-function isShopPage() {
-    return document.querySelector('.pro-container') !== null && document.querySelector('#pagination') !== null;
-}
-
 // Display products for the current page
 function displayProducts() {
     console.log("Displaying products...");
-    const productsContainer = document.querySelector('.pro-container');
+    let productsContainer;
+    let filteredProducts = [...products];
+
+    if (isHomePage()) {
+        productsContainer = document.querySelector('.home-pro-container');
+        filteredProducts = popularProducts; // Use popular products for home page
+    } else if (isShopPage()) {
+        productsContainer = document.querySelector('.shop-pro-container');
+    }
+
     if (!productsContainer) {
-        console.error("Products container not found on the main shop page");
+        console.error("Products container not found");
         return;
     }
     productsContainer.innerHTML = ''; // Clear existing products
-
-    let filteredProducts = [...products];
 
     // Search
     const searchInput = document.getElementById('searchInput');
@@ -59,12 +77,21 @@ function displayProducts() {
         );
     }
 
-    // Filter
-    const filterSelect = document.getElementById('filterSelect');
-    const filterType = filterSelect ? filterSelect.value : 'all';
-    if (filterType !== 'all') {
+    // Material Filter
+    const materialFilterSelect = document.getElementById('materialFilterSelect');
+    const materialFilter = materialFilterSelect ? materialFilterSelect.value : 'all';
+    if (materialFilter !== 'all') {
         filteredProducts = filteredProducts.filter(product =>
-            product.type.includes(filterType)
+            product.type.includes(materialFilter)
+        );
+    }
+
+    // Type Filter
+    const typeFilterSelect = document.getElementById('typeFilterSelect');
+    const typeFilter = typeFilterSelect ? typeFilterSelect.value : 'all';
+    if (typeFilter !== 'all') {
+        filteredProducts = filteredProducts.filter(product =>
+            product.type.includes(typeFilter)
         );
     }
 
@@ -73,7 +100,7 @@ function displayProducts() {
     const sortType = sortSelect ? sortSelect.value : 'name';
     filteredProducts.sort((a, b) => {
         if (sortType === 'price') {
-            return parseFloat(a.price.substring(1)) - parseFloat(b.price.substring(1)); // Assumes price format is "$X.XX"
+            return parseFloat(a.price.substring(1)) - parseFloat(b.price.substring(1)); 
         } else {
             return a.name.localeCompare(b.name);
         }
@@ -126,8 +153,16 @@ function displayProducts() {
         productsContainer.appendChild(productElement);
     });
 
-    setupPagination(filteredProducts.length);
+    if (isShopPage()) {
+        setupPagination(filteredProducts.length);
+    }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (isShopPage() || isHomePage()) {
+        fetchProductData();
+    }
+});
 
 function setupPagination(filteredProductsLength) {
     console.log("Setting up pagination...");
@@ -149,11 +184,20 @@ function setupPagination(filteredProductsLength) {
             e.preventDefault();
             currentPage = i;
             displayProducts();
+            scrollToTop(); // Scroll to the top after changing the page
         };
         paginationContainer.appendChild(pageLink);
     }
+    
 }
 
+// Function to scroll to the top of the page or a specific element
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
 function goToProductPage(element) {
     const id = element.getAttribute('data-id');
     const aval = element.getAttribute('data-aval');
@@ -271,7 +315,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const searchInput = document.getElementById('searchInput');
     const sortSelect = document.getElementById('sortSelect');
-    const filterSelect = document.getElementById('filterSelect');
+    const materialFilterSelect = document.getElementById('materialFilterSelect');
+    const typeFilterSelect = document.getElementById('typeFilterSelect');
 
     if (searchInput) {
         searchInput.addEventListener('input', () => {
@@ -287,8 +332,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    if (filterSelect) {
-        filterSelect.addEventListener('change', () => {
+    if (materialFilterSelect) {
+        materialFilterSelect.addEventListener('change', () => {
+            currentPage = 1;
+            displayProducts();
+        });
+    }
+
+    if (typeFilterSelect) {
+        typeFilterSelect.addEventListener('change', () => {
             currentPage = 1;
             displayProducts();
         });
