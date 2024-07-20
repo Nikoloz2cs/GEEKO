@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GEEKO</title>
+    <script src="https://kit.fontawesome.com/3fea0b1f80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <section id="header">
+      <a href="index.html"><img src="web_images/GEEKO_logo.png" class="logo" alt=""></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>        </ul>
+      </div>
+      <div id="mobile">
+        <!-- <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a> -->
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="shop-header">
+      <h2>#stayhome</h2>
+      <p>Save more with coupons & up to 70% off!</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+      
+      <section id="controls" class="section-p1">
+        <input type="text" id="searchInput" placeholder="Search for products...">
+        <select id="sortSelect">
+            <option value="name">Sort by Name</option>
+            <option value="price">Sort by Price</option>
+        </select>
+        <select id="filterSelect">
+            <option value="all">All Types</option>
+            <!-- Dynamically generate filter options based on product types -->
+        </select>
+    </section>
+
+      <div class="pro-container">
+        <!-- Setup happens using the "products.json" folder and JS -->
+      </div>
+      <section id="pagination" class="section-p1">
+        <!-- Setup happens using JS -->
+      </section>
+    </section>
+
+    <!-- <section id="pagination" class="section-p1">
+        <a href="shop.html" style="border: 2px solid">1</a>
+        <a href="shopP2.html" style="border: 2px solid #191a1d">2</a>
+        <a href="shopP3.html" style="border: 2px solid #191a1d">3</a>
+        <a href="shopP3.html" style="border: 2px solid #191a1d"><i class="fa-solid fa-arrow-right"></i></a>
+    </section> -->
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletter</h4>
+        <p>Get E-mail updates about our latest <span>shipments</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your Email Address">
+        <button class="normal">Sign Up</button>
+
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="web_images/GEEKO_logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> Eliava Market, Riverside Stoplight Entrance</p>
+        <p><strong>Phone: </strong> +(995) 599 50 71 74</p>
+        <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sun</p>
+        <div class="follow">
+          <!-- <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class=" fab fa-youtube"></i>
+          </div> -->
+        </div>
+      </div>
+      <img class="coming_soon" src="web_images/coming_soon.png" alt="">
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="web_images/app.jpg" alt="">
+          <img src="web_images/play.jpg" alt="">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="web_images/pay.png" alt="">
+      </div>
+      
+      <div class="copyright">
+        <p>&copy LLC GEEKO</p>
+      </div>
+
+    </footer>
+
+	<script src="script.js"></script>
+  </body>
+
+</html>

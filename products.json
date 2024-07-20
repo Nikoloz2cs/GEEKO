@@ -1,0 +1,470 @@
+[
+    {
+        "id": "1",
+        "aval": "yes",
+        "name": "Aluminium Angle",
+        "price": "$_____",
+        "type": ["Aluminium", "Angle"],
+        "images": [
+            "product_images/aluminiumAngle/1.jpg",
+            "product_images/aluminiumAngle/2.jpg",
+            "product_images/aluminiumAngle/3.jpg",
+            "product_images/aluminiumAngle/4.jpg"
+        ]
+    },
+    {
+        "id": "2",
+        "aval": "no",
+        "name": "Aluminium Flat Bar",
+        "price": "$_____",
+        "type": ["Aluminium", "Flat Bar"],
+        "images": [
+            "product_images/aluminiumFlatBar/1.jpg",
+            "product_images/aluminiumFlatBar/2.jpg",
+            "product_images/aluminiumFlatBar/3.jpg",
+            "product_images/aluminiumFlatBar/4.jpg"
+        ]
+    },
+    {
+        "id": "3",
+        "aval": "yes",
+        "name": "Aluminium Rod",
+        "price": "$_____",
+        "type": ["Aluminium", "Rod"],
+        "images": [
+            "product_images/aluminiumRod/1.jpg",
+            "product_images/aluminiumRod/2.jpg",
+            "product_images/aluminiumRod/3.jpg",
+            "product_images/aluminiumRod/4.jpg"
+        ]
+    },
+    {
+        "id": "4",
+        "aval": "low",
+        "name": "Aluminium Round Tube",
+        "price": "$_____",
+        "type": ["Aluminium", "Round Tube"],
+        "images": [
+            "product_images/aluminiumRoundTube/1.jpg",
+            "product_images/aluminiumRoundTube/2.jpg",
+            "product_images/aluminiumRoundTube/3.jpg",
+            "product_images/aluminiumRoundTube/4.jpg"
+        ]
+    },
+    {
+        "id": "5",
+        "aval": "yes",
+        "name": "Aluminium Sheet",
+        "price": "$_____",
+        "type": ["Aluminium", "Sheet"],
+        "images": [
+            "product_images/aluminiumSheet/1.jpg",
+            "product_images/aluminiumSheet/2.jpg",
+            "product_images/aluminiumSheet/3.jpg",
+            "product_images/aluminiumSheet/4.jpg"
+        ]
+    },
+    {
+        "id": "6",
+        "aval": "yes",
+        "name": "Brass Angle",
+        "price": "$_____",
+        "type": ["Brass", "Angle"],
+        "images": [
+            "product_images/brassAngle/1.jpg",
+            "product_images/brassAngle/2.jpg",
+            "product_images/brassAngle/3.jpg",
+            "product_images/brassAngle/4.jpg"
+        ]
+    },
+    {
+        "id": "7",
+        "aval": "yes",
+        "name": "Brass Flat Bar",
+        "price": "$_____",
+        "type": ["Brass", "Flat Bar"],
+        "images": [
+            "product_images/brassFlatBar/1.jpg",
+            "product_images/brassFlatBar/2.jpg",
+            "product_images/brassFlatBar/3.jpg",
+            "product_images/brassFlatBar/4.jpg"
+        ]
+    },
+    {
+        "id": "8",
+        "aval": "yes",
+        "name": "Brass Rod",
+        "price": "$_____",
+        "type": ["Brass", "Rod"],
+        "images": [
+            "product_images/brassRod/1.jpg",
+            "product_images/brassRod/2.jpg",
+            "product_images/brassRod/3.jpg",
+            "product_images/brassRod/4.jpg"
+        ]
+    },
+    {
+        "id": "9",
+        "aval": "yes",
+        "name": "Brass Rod Hexagonal",
+        "price": "$_____",
+        "type": ["Brass", "Rod"],
+        "images": [
+            "product_images/brassRodHexagonal/1.jpg",
+            "product_images/brassRodHexagonal/2.jpg",
+            "product_images/brassRodHexagonal/3.jpg",
+            "product_images/brassRodHexagonal/4.jpg"
+        ]
+    },
+    {
+        "id": "10",
+        "aval": "yes",
+        "name": "Brass Sheet",
+        "price": "$_____",
+        "type": ["Brass", "Sheet"],
+        "images": [
+            "product_images/brassSheet/1.jpg",
+            "product_images/brassSheet/2.jpg",
+            "product_images/brassSheet/3.jpg",
+            "product_images/brassSheet/4.jpg"
+        ]
+    },
+    {
+        "id": "11",
+        "aval": "yes",
+        "name": "Brass Wire",
+        "price": "$_____",
+        "type": ["Brass", "Wire"],
+        "images": [
+            "product_images/brassWire/1.jpg",
+            "product_images/brassWire/2.jpg",
+            "product_images/brassWire/3.jpg",
+            "product_images/brassWire/4.jpg"
+        ]
+    },
+    {
+        "id": "12",
+        "aval": "yes",
+        "name": "Capralon",
+        "price": "$_____",
+        "type": ["Capralon"],
+        "images": [
+            "product_images/capralon/1.jpg",
+            "product_images/capralon/2.jpg",
+            "product_images/capralon/3.jpg",
+            "product_images/capralon/4.jpg"
+        ]
+    },
+    {
+        "id": "13",
+        "aval": "yes",
+        "name": "Conveyor Belt",
+        "price": "$_____",
+        "type": ["Conveyor Belt"],
+        "images": [
+            "product_images/ConveyorBelt/1.jpg",
+            "product_images/ConveyorBelt/2.jpg",
+            "product_images/ConveyorBelt/3.jpg",
+            "product_images/ConveyorBelt/4.jpg"
+        ]
+    },
+    {
+        "id": "14",
+        "aval": "yes",
+        "name": "Copperbond Ground Rod",
+        "price": "$_____",
+        "type": ["Copperbond", "Rod"],
+        "images": [
+            "product_images/copperbondGroundRod/1.jpg",
+            "product_images/copperbondGroundRod/2.jpg",
+            "product_images/copperbondGroundRod/3.jpg",
+            "product_images/copperbondGroundRod/4.jpg"
+        ]
+    },
+    {
+        "id": "15",
+        "aval": "yes",
+        "name": "Copper Flat Bar",
+        "price": "$_____",
+        "type": ["Copper", "Flat Bar"],
+        "images": [
+            "product_images/copperFlatBar/1.jpg",
+            "product_images/copperFlatBar/2.jpg",
+            "product_images/copperFlatBar/3.jpg",
+            "product_images/copperFlatBar/4.jpg"
+        ]
+    },
+    {
+        "id": "16",
+        "aval": "yes",
+        "name": "Copper Sheet",
+        "price": "$_____",
+        "type": ["Copper", "Sheet"],
+        "images": [
+            "product_images/copperSheet/1.jpg",
+            "product_images/copperSheet/2.jpg",
+            "product_images/copperSheet/3.jpg",
+            "product_images/copperSheet/4.jpg"
+        ]
+    },
+    {
+        "id": "17",
+        "aval": "yes",
+        "name": "Fireproof Fiber Glass",
+        "price": "$_____",
+        "type": ["Fireproof", "Fiber Glass"],
+        "images": [
+            "product_images/fireproofFiberGlass/1.jpg",
+            "product_images/fireproofFiberGlass/2.jpg",
+            "product_images/fireproofFiberGlass/3.jpg",
+            "product_images/fireproofFiberGlass/4.jpg"
+        ]
+    },
+    {
+        "id": "18",
+        "aval": "yes",
+        "name": "Graphite Packing",
+        "price": "$_____",
+        "type": ["Graphite", "Packing"],
+        "images": [
+            "product_images/graphitePacking/1.jpg",
+            "product_images/graphitePacking/2.jpg",
+            "product_images/graphitePacking/3.jpg",
+            "product_images/graphitePacking/4.jpg"
+        ]
+    },
+    {
+        "id": "19",
+        "aval": "yes",
+        "name": "Organic Glass",
+        "price": "$_____",
+        "type": ["Organic Glass"],
+        "images": [
+            "product_images/organicGlass/1.jpg",
+            "product_images/organicGlass/2.jpg",
+            "product_images/organicGlass/3.jpg",
+            "product_images/organicGlass/4.jpg"
+        ]
+    },
+    {
+        "id": "20",
+        "aval": "yes",
+        "name": "Paronite Sheet",
+        "price": "$_____",
+        "type": ["Paronite", "Sheet"],
+        "images": [
+            "product_images/paroniteSheet/1.jpg",
+            "product_images/paroniteSheet/2.jpg",
+            "product_images/paroniteSheet/3.jpg",
+            "product_images/paroniteSheet/4.jpg"
+        ]
+    },
+    {
+        "id": "21",
+        "aval": "yes",
+        "name": "Polyamide",
+        "price": "$_____",
+        "type": ["Polyamide"],
+        "images": [
+            "product_images/polyamide/1.jpg",
+            "product_images/polyamide/2.jpg",
+            "product_images/polyamide/3.jpg",
+            "product_images/polyamide/4.jpg"
+        ]
+    },
+    {
+        "id": "22",
+        "aval": "yes",
+        "name": "Polyurethane",
+        "price": "$_____",
+        "type": ["Polyurethane"],
+        "images": [
+            "product_images/polyurethane/1.jpg",
+            "product_images/polyurethane/2.jpg",
+            "product_images/polyurethane/3.jpg",
+            "product_images/polyurethane/4.jpg"
+        ]
+    },
+    {
+        "id": "23",
+        "aval": "yes",
+        "name": "Rubber",
+        "price": "$_____",
+        "type": ["Rubber"],
+        "images": [
+            "product_images/rubber/1.jpg",
+            "product_images/rubber/2.jpg",
+            "product_images/rubber/3.jpg",
+            "product_images/rubber/4.jpg"
+        ]
+    },
+    {
+        "id": "24",
+        "aval": "yes",
+        "name": "Silicon Rubber",
+        "price": "$_____",
+        "type": ["Silicon", "Rubber"],
+        "images": [
+            "product_images/siliconRubber/1.jpg",
+            "product_images/siliconRubber/2.jpg",
+            "product_images/siliconRubber/3.jpg",
+            "product_images/siliconRubber/4.jpg"
+        ]
+    },
+    {
+        "id": "25",
+        "aval": "yes",
+        "name": "Stainless Steel Angle",
+        "price": "$_____",
+        "type": ["Stainless Steel", "Angle"],
+        "images": [
+            "product_images/stainlessSteelAngle/1.jpg",
+            "product_images/stainlessSteelAngle/2.jpg",
+            "product_images/stainlessSteelAngle/3.jpg",
+            "product_images/stainlessSteelAngle/4.jpg"
+        ]
+    },
+    {
+        "id": "26",
+        "aval": "yes",
+        "name": "Stainless Steel Rod",
+        "price": "$_____",
+        "type": ["Stainless Steel", "Rod"],
+        "images": [
+            "product_images/stainlessSteelRod/1.jpg",
+            "product_images/stainlessSteelRod/2.jpg",
+            "product_images/stainlessSteelRod/3.jpg",
+            "product_images/stainlessSteelRod/4.jpg"
+        ]
+    },
+    {
+        "id": "27",
+        "aval": "yes",
+        "name": "Stainless Steel Sheet",
+        "price": "$_____",
+        "type": ["Stainless Steel", "Sheet"],
+        "images": [
+            "product_images/stainlessSteelSheet/1.jpg",
+            "product_images/stainlessSteelSheet/2.jpg",
+            "product_images/stainlessSteelSheet/3.jpg",
+            "product_images/stainlessSteelSheet/4.jpg"
+        ]
+    },
+    {
+        "id": "28",
+        "aval": "yes",
+        "name": "Stainless Steel Square Tube",
+        "price": "$_____",
+        "type": ["Stainless Steel", "Square Tube"],
+        "images": [
+            "product_images/stainlessSteelSquareTube/1.jpg",
+            "product_images/stainlessSteelSquareTube/2.jpg",
+            "product_images/stainlessSteelSquareTube/3.jpg",
+            "product_images/stainlessSteelSquareTube/4.jpg"
+        ]
+    },
+    {
+        "id": "29",
+        "aval": "yes",
+        "name": "Perforated Steel Sheet",
+        "price": "$_____",
+        "type": ["Perforated", "Steel", "Sheet"],
+        "images": [
+            "product_images/steelSheetPerforated/1.jpg",
+            "product_images/steelSheetPerforated/2.jpg",
+            "product_images/steelSheetPerforated/3.jpg",
+            "product_images/steelSheetPerforated/4.jpg"
+        ]
+    },
+    {
+        "id": "30",
+        "aval": "yes",
+        "name": "Technical Rubber Sheet",
+        "price": "$_____",
+        "type": ["Rubber", "Sheet"],
+        "images": [
+            "product_images/technicalRubberSheet/1.jpg",
+            "product_images/technicalRubberSheet/2.jpg",
+            "product_images/technicalRubberSheet/3.jpg",
+            "product_images/technicalRubberSheet/4.jpg"
+        ]
+    },
+    {
+        "id": "31",
+        "aval": "yes",
+        "name": "Teflon Rod",
+        "price": "$_____",
+        "type": ["Teflon", "Rod"],
+        "images": [
+            "product_images/teflonRod/1.jpg",
+            "product_images/teflonRod/2.jpg",
+            "product_images/teflonRod/3.jpg",
+            "product_images/teflonRod/4.jpg"
+        ]
+    },
+    {
+        "id": "32",
+        "aval": "yes",
+        "name": "Textolite",
+        "price": "$_____",
+        "type": ["Textolite"],
+        "images": [
+            "product_images/textolite/1.jpg",
+            "product_images/textolite/2.jpg",
+            "product_images/textolite/3.jpg",
+            "product_images/textolite/4.jpg"
+        ]
+    },
+    {
+        "id": "33",
+        "aval": "yes",
+        "name": "Wire Rope",
+        "price": "$_____",
+        "type": ["Wire Rope"],
+        "images": [
+            "product_images/wireRope/1.jpg",
+            "product_images/wireRope/2.jpg",
+            "product_images/wireRope/3.jpg",
+            "product_images/wireRope/4.jpg"
+        ]
+    },
+    {
+        "id": "34",
+        "aval": "yes",
+        "name": "",
+        "price": "$_____",
+        "type": [""],
+        "images": [
+            "product_images//1.jpg",
+            "product_images//2.jpg",
+            "product_images//3.jpg",
+            "product_images//4.jpg"
+        ]
+    },
+    {
+        "id": "35",
+        "aval": "yes",
+        "name": "",
+        "price": "$_____",
+        "type": [""],
+        "images": [
+            "product_images//1.jpg",
+            "product_images//2.jpg",
+            "product_images//3.jpg",
+            "product_images//4.jpg"
+        ]
+    },
+    {
+        "id": "36",
+        "aval": "yes",
+        "name": "",
+        "price": "$_____",
+        "type": [""],
+        "images": [
+            "product_images//1.jpg",
+            "product_images//2.jpg",
+            "product_images//3.jpg",
+            "product_images//4.jpg"
+        ]
+    }
+]
